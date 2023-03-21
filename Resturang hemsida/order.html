@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greatefood/Order</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+     integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="tab">
+        <div class="logobox">
+            <a href="index.html">
+                <img  style="width:250px ; height: 60px;" src="WEBLOGO.png">
+            </a>
+        </div>
+
+        <div class="HOME">
+            <a href="index.html">HOME</a>
+        </div>
+        <div class="MENU">
+            <a href="menu.html">MENU</a>
+        </div>
+        <div class="ORDER">
+            <a href="order.html" style="color:#3FDC58">ORDER</a>
+        </div>
+        <div class="ABOUT">
+            <a href="about.html">ABOUT</a>
+        </div>
+        <img id ="SEARCHICON" src= SEARCHICON.png>
+    <img id ="KARTICON" src= KARTICON.png>
+    <img id ="USERICON" src= USERICON.png>
+    </div>
+    <img id ="SEARCHICON" src= SEARCHICON.png>
+    <img id ="KARTICON" src= KARTICON.png>
+    <img id ="USERICON" src= USERICON.png>
+    <div class="orderframe">
+        <div class="innerbox"></div>
+        <div class="shoppingkart">Shopping Cart.</div>
+        <div class="ProductOrder">Product</div>
+        <div class="QuantityOrder">Quantity</div>
+    </div>
+        
+        <div class="wrapper">
+
+            <div class="minus">-</div>
+            <div class="num">&nbsp;1&nbsp;</div>
+            <div class="plus">+</div>
+        </div>
+
+        <div class="wrapper1">
+
+            <div class="minus1">-</div>
+            <div class="num1">&nbsp;1&nbsp;</div>
+            <div class="plus1">+</div>
+        </div>
+
+        <div class="wrapper2">
+
+            <div class="minus2">-</div>
+            <div class="num2">&nbsp;1&nbsp;</div>
+            <div class="plus2">+</div>
+        </div>
+
+
+        <div class="wrapper3">
+
+            <div class="minus3">-</div>
+            <div class="num3">&nbsp;1&nbsp;</div>
+            <div class="plus3">+</div>
+        </div>
+
+
+        <div class="orderline"></div>
+        <div class="Item1">Hamburger</div>
+        <div class="Item2">Pizza</div>
+        <div class="Item3">Coca Cola</div>
+        <div class="Item4">Ice Cream</div>
+
+        <div class="TotalpriceOrder">Total price</div>
+        <div class="price1">105:-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✕</div>
+        <div class="price2">120:-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✕</div>
+        <div class="price3">20:-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✕</div>
+        <div class="price4">50:-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✕</div>
+
+        <div class="orderline2"></div>
+        <div class="Subtotal">Subtotal:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;295:-</div>
+        <div class="Shipping">Shipping:&nbsp;&nbsp;&nbsp;&nbsp;70:-</div>
+        <div class="totalprice">Total:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;365:-</div>
+        <div class="PaymentLine"></div>
+
+
+        <div class="ContinueShopping">&lt; Continue Shopping</div>
+
+        <div class="paymentframe"></div>
+        <div class="paymentinfo">Payment Info.</div>
+        <div class="paymentmethod">Payment Method:</div>
+        <form>
+            <div class = "radios">
+            <input type="radio" id="CreditCard" name="Paymentratio" class="radio">
+            <img id="CreditCard" src="CreditCardIcon.png" class="Creditcardicon" alt="Image did not load" />
+            <label for="CreditCard" class="paymentMethod1">Credit Card</label>
+            <input type="radio" id="PayPal" name="Paymentratio" class="radio">
+            <img id="CreditCard" src="paypalicon.png" class="Paypalicon" alt="Image did not load" />
+            <label for="PayPal" class="paymentMethod2">PayPal</label><br>
+            </div>
+            </form>
+
+
+        <div class="cardname">Name on card:</div>
+        <input class="NameEnter" type="text" placeholder="&nbsp;Enter name">
+        <div class="CardNumber">Card Number:</div>
+        <input class="CardNumberInput" type="text" placeholder="&nbsp;0000 0000 0000 0000">
+        
+        <div class="Expiration">Expiration Date:</div>
+            <div class="select-menu">
+                <div class="select">
+                    <span>Month</span>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div class="options-list">
+                    <div class="option">01</div>
+                    <div class="option">02</div>
+                    <div class="option">03</div>
+                    <div class="option">04</div>
+                    <div class="option">05</div>
+                    <div class="option">06</div>
+                    <div class="option">07</div>
+                    <div class="option">08</div>
+                    <div class="option">09</div>
+                    <div class="option">10</div>
+                    <div class="option">11</div>
+                    <div class="option">12</div>
+
+                </div>
+            </div>
+
+            <div class="select-menu1">
+                <div class="select1">
+                    <span>Year</span>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div class="options-list1">
+                    <div class="option1">2023</div>
+                    <div class="option1">2024</div>
+                    <div class="option1">2025</div>
+                    <div class="option1">2026</div>
+                    <div class="option1">2027</div>
+                    <div class="option1">2028</div>
+
+                </div>
+            </div>
+           
+           
+            <div class="CCV">CCV:</div>
+            <input class="CCVINPUT" type="text" placeholder="&nbsp;123">
+        
+
+            <script>
+
+        const plus = document.querySelector(".plus"),
+            minus = document.querySelector(".minus"),
+            num = document.querySelector(".num");
+            let a = 1;
+
+            function add(event) {
+                var num = parseInt(event.target.innerText);
+                console.log(num)
+            }
+
+            plus.addEventListener("click", ()=>{
+            a++;
+            num.innerText = a;
+            });
+
+            minus.addEventListener("click", ()=>{
+            if(a > 1){
+                a--;
+                num.innerText = a;
+            }
+    });
+
+
+    const plus1 = document.querySelector(".plus1"),
+            minus1 = document.querySelector(".minus1"),
+            num1 = document.querySelector(".num1");
+            let a1 = 1;
+
+            function add(event1) {
+                var num1 = parseInt(event1.target.innerText);
+                console.log(num1)
+            }
+
+            plus1.addEventListener("click", ()=>{
+            a1++;
+            num1.innerText = a1;
+            });
+
+            minus1.addEventListener("click", ()=>{
+            if(a1 > 1){
+                a1--;
+                num1.innerText = a1;
+            }
+    });
+
+    const plus2 = document.querySelector(".plus2"),
+            minus2 = document.querySelector(".minus2"),
+            num2 = document.querySelector(".num2");
+            let a2 = 1;
+
+            function add(event2) {
+                var num2 = parseInt(event2.target.innerText);
+                console.log(num2)
+            }
+
+            plus2.addEventListener("click", ()=>{
+            a2++;
+            num2.innerText = a2;
+            });
+
+            minus2.addEventListener("click", ()=>{
+            if(a2 > 1){
+                a2--;
+                num2.innerText = a2;
+            }
+    });
+
+    const plus3 = document.querySelector(".plus3"),
+            minus3 = document.querySelector(".minus3"),
+            num3 = document.querySelector(".num3");
+            let a3 = 1;
+
+            function add(event3) {
+                var num3 = parseInt(event3.target.innerText);
+                console.log(num3)
+            }
+
+            plus3.addEventListener("click", ()=>{
+            a3++;
+            num3.innerText = a3;
+            });
+
+            minus3.addEventListener("click", ()=>{
+            if(a3 > 1){
+                a3--;
+                num3.innerText = a3;
+            }
+    });
+
+
+                const select = document.querySelector(".select");
+                const options_list = document.querySelector(".options-list");
+                const options = document.querySelectorAll(".option");
+                
+
+                select.addEventListener("click", () => {
+                    options_list.classList.toggle("active");
+                    select.querySelector(".fa-angle-down").classList.toggle("fa-angle-up");
+                });
+
+
+                options.forEach((option) => {
+                    option.addEventListener("click", () => {
+                        options.forEach((option) => {option.classList.remove('selected')});
+                        select.querySelector("span").innerHTML = option.innerHTML;
+                        option.classList.add("selected");
+                        options_list.classList.toggle("active");
+                        select.querySelector(".fa-angle-down").classList.toggle("fa-angle-up");
+                        
+                    })
+                });
+
+
+                const select1 = document.querySelector(".select1");
+                const options_list1 = document.querySelector(".options-list1");
+                const options1 = document.querySelectorAll(".option1");
+                
+
+                select1.addEventListener("click", () => {
+                    options_list1.classList.toggle("active");
+                    select1.querySelector(".fa-angle-down").classList.toggle("fa-angle-up");
+                });
+
+
+                options1.forEach((option1) => {
+                    option1.addEventListener("click", () => {
+                        options1.forEach((option1) => {option1.classList.remove('selected')});
+                        select1.querySelector("span").innerHTML = option1.innerHTML;
+                        option1.classList.add("selected");
+                        options_list1.classList.toggle("active");
+                        select1.querySelector(".fa-angle-down").classList.toggle("fa-angle-up");
+                        
+                    })
+                });
+
+            </script>
+
+
+
+  
+
+        <div class="buttonOrder">Check Out</div>
+        
+
+</body>
+</html>
